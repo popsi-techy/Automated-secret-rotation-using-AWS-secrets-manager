@@ -28,6 +28,10 @@ The core of the secret rotation system is the Lambda function. The code in `lamb
 
 The `pythonLambdaFunction.zip` file contains the Lambda function code along with its dependencies. This zip file simplifies the deployment process and ensures that all required libraries are included.
 
+## Design Solution
+
+For a deeper understanding of the design choices, architecture, and considerations behind the automated secret rotation system, refer to the [Design Solution Document](./Design%20Solution%20Document).
+
 
 
 
