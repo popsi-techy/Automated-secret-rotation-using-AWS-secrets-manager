@@ -9,12 +9,13 @@ Step-by-Step Guide:
 --For "Secret key/value," enter the root users and their initial passwords. 
 For example:
 {
-  "users": {
-    "root1": "initial_password_1",
-    "root2": "initial_password_2"
-  },
+  "users": [
+    {"username": "root1", "password": "initial_password1"},
+    {"username": "root2", "password": "initial_password2"}
+    // Add more users as needed
+  ],
+  "rotation_timestamp": "2023-01-01T12:00:00Z"
 }
-
 --Select Dtabase according to use (Here: MySQL)
 --Enter Server address; Database name and Port.
 --Choose "Next"
