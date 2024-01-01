@@ -31,6 +31,7 @@ The `pythonLambdaFunction.zip` file contains the Lambda function code along with
 ## Design Solution
 
 For a deeper understanding of the design choices, architecture, and considerations behind the automated secret rotation system, refer to the [Design Solution Document](./Design%20Solution%20Document.pdf).
+Also can be accessed on Google docs: https://docs.google.com/document/d/10R-2lkyIg8-PFYb2MYA_ERsmX3soq_eRUEd_ISnpeiA/edit?usp=sharing
 
 
 
