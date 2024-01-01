@@ -47,11 +47,26 @@ For example:
 
 4. Configure SNS for Notifications:
 
---Open the Amazon SNS Console.
---Choose "Create topic."
---Enter a name and display name for your topic.
---Choose "Create topic."
---Copy the "Topic ARN" for later use.
+4.1  Create an SNS Topic: 
+--Go to the AWS Management Console.
+--Navigate to the SNS service.
+--Click on "Create topic."
+--Enter a name for the topic (e.g., MySQLRotationNotification).
+--Optionally, set display name and other configurations.
+--Click on "Create topic."
+
+4.2 Subscribe Endpoints:
+--Once the topic is created, select the topic from the list.
+--Click on "Create subscription."
+--Choose the protocol for your endpoint (Lambda).
+--Enter the endpoint details (Lambda function ARN).
+--Confirm the subscription.
+
+4.3 Get TOpic ARN:
+
+--After creating the topic and subscribing endpoints, go back to the topic list.
+--Select the newly created topic.
+--Copy the ARN (Amazon Resource Name) of the topic. Use this ARN in the Lambda function.
 
 5. IAM Role and Policies:
 
