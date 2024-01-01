@@ -8,7 +8,7 @@ Secret rotation is a crucial aspect of maintaining the security of sensitive inf
 
 ### Repository Structure
 
-1. **Implementation Guide:** Comprehensive documentation covering the implementation steps, including Lambda function setup, AWS Secrets Manager setup, and more.
+1. **Implementation guide:** Comprehensive documentation covering the implementation steps, including Lambda function setup, AWS Secrets Manager setup, and more.
 
 2. **`lambda_function.py` Code:** Python code for the Lambda function responsible for rotating MySQL root user passwords. The code includes support for manual rotations, and logic to reset the rotation cycle.
 
@@ -18,7 +18,7 @@ Secret rotation is a crucial aspect of maintaining the security of sensitive inf
 
 ## Getting Started
 
-To get started with the implementation, follow the steps outlined in the [Implementation Guide](./Implementation%20Guide).
+To get started with the implementation, follow the steps outlined in the [Implementation guide](./Implementation%20guide).
 
 ### Lambda Function
 
