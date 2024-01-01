@@ -1,0 +1,1 @@
+# Automated-secret-rotation-using-AWS-secrets-manager
