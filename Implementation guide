@@ -40,7 +40,7 @@ For example:
 --Choose "Rules" in the left navigation pane.
 --Choose "Create Rule."
 --For "Event Source," choose "Event Source Type" as "Event Source" and "Event Type" as "Scheduled."
---Set the schedule expression to cron(0 0 */40 * ? *) for every 40 days.
+--Set the schedule expression to cron(0 0 */40 * ? *) for every 40 days (Change days according to your need).
 --For "Targets," add your Lambda function.
 
 4. Configure SNS for Notifications:
