@@ -12,8 +12,10 @@ For example:
   "users": {
     "root1": "initial_password_1",
     "root2": "initial_password_2"
-  }
+  },
+  "rotation_cycle_reset": false
 }
+
 --Select Dtabase according to use (Here: MySQL)
 --Enter Server address; Database name and Port.
 --Choose "Next"
