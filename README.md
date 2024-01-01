@@ -14,7 +14,7 @@ Secret rotation is a crucial aspect of maintaining the security of sensitive inf
 
 3. **`pythonLambdaFunction.zip`:** A zip file containing the Lambda function code along with its dependencies. This zip file can be used for easy deployment of the Lambda function.
 
-4. **Design Solution Document.pdf:** A detailed document explaining the design solution, architectural decisions, and considerations for the automated secret rotation system.
+4. **`Design Solution Document.pdf`:** A detailed document explaining the design solution, architectural decisions, and considerations for the automated secret rotation system.
 
 ## Getting Started
 
