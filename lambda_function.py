@@ -101,6 +101,6 @@ def send_notification(message, subject='MySQL Secret Rotation Notification'):
 
 
 # Uncomment the line below to test the rotation function locally
-# rotate_mysql_password(None, None)
+rotate_mysql_password(None, None)
 
 #Make sure to upload this code with pymysql file on code source while creating lambda function.
